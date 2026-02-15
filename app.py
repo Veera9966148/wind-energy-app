@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-model = joblib.load("wind_energy_rf_model.pkl")
+model = joblib.load("wind_energy_rf_model_small.pkl")
 
 st.title("Wind Energy Prediction App")
 
